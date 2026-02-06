@@ -1,3 +1,4 @@
+// Ex 1.02 - declaring a variable using var
 package main
 
 import "fmt"

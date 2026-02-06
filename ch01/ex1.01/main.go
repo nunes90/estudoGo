@@ -1,3 +1,4 @@
+// Ex1.01 - using variables, packages, and functions to print stars
 package main
 
 import (

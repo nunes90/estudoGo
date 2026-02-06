@@ -1,3 +1,4 @@
+// Ex 1.06 - declaring multiple variables from a function
 package main
 
 import (

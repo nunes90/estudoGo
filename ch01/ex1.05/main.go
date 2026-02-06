@@ -1,3 +1,4 @@
+// Ex 1.05 - implementing a short variable declaration
 package main
 
 import (

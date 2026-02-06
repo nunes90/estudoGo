@@ -1,3 +1,4 @@
+// Ex 1.04 - skipping the type or value when declaring variables
 package main
 
 import (

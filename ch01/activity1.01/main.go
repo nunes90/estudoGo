@@ -1,3 +1,4 @@
+// Activity 1.01 - defining and printing
 package main
 
 import "fmt"

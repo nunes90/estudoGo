@@ -1,4 +1,4 @@
-// Changing the value of a variable
+// Ex 1.07 - Changing the value of a variable
 package main
 
 import "fmt"

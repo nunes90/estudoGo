@@ -1,3 +1,4 @@
+// Ex 1.03 - declaring multiple variables at once with var
 package main
 
 import (
