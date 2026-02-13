@@ -14,6 +14,8 @@ type locale struct {
 
 func getLocales() map[locale]struct{} {
 	supportedLocales := make(map[locale]struct{}, 5)
+	// `struct{}{}` - o `struct{}` e o tipo (zero bytes),
+	// o `{}` externo e a inicialização do valor (um struct vazio)
 	supportedLocales[locale{"en", "US"}] = struct{}{}
 	supportedLocales[locale{"en", "CN"}] = struct{}{}
 	supportedLocales[locale{"fr", "CN"}] = struct{}{}
