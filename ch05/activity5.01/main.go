@@ -28,8 +28,10 @@ const (
 )
 
 func main() {
-	d := Developer{Individual: Employee{Id: 1, FirstName: "Tony", LastName: "Stark"},
-		HourlyRate: 10}
+	d := Developer{
+		Individual: Employee{Id: 1, FirstName: "Tony", LastName: "Stark"},
+		HourlyRate: 10,
+	}
 	d.LogHours(Monday, 8)
 	d.LogHours(Tuesday, 10)
 	fmt.Println("Hours worked on Monday:  ", d.WorkWeek[Monday])
