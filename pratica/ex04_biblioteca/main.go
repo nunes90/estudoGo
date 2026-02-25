@@ -82,23 +82,23 @@ func main() {
 
 	var bib Biblioteca
 
-	fmt.Println("\n(Adicionar) Adicionando 8 livros à biblioteca...\n")
+	fmt.Println("\n(Adicionar) Adicionando 8 livros à biblioteca...")
 	bib.Adicionar(l1, l2, l3, l4, l5, l6, l7, l8)
 
-	fmt.Println("\nTodos os livros:\n")
+	fmt.Println("\nTodos os livros:")
 	fmt.Printf("%v\n", bib)
 
-	fmt.Println("\n(Pesquisar) Livros do autor J.R.R. Tolkien:\n")
+	fmt.Println("\n(Pesquisar) Livros do autor J.R.R. Tolkien:")
 	for _, l := range bib.Pesquisar("Tolkien") {
 		fmt.Printf("  %s (%d)\n", l.Titulo, l.AnoPublicacao)
 	}
 
-	fmt.Println("\n(MaisRecentes(3)) Os livros mais recentes são:\n")
+	fmt.Println("\n(MaisRecentes(3)) Os livros mais recentes são:")
 	for _, l := range bib.MaisRecentes(3) {
 		fmt.Printf("  %s (%d)\n", l.Titulo, l.AnoPublicacao)
 	}
 
-	fmt.Println("\n(PorGenero) Livros de Mistério:\n")
+	fmt.Println("\n(PorGenero) Livros de Mistério:")
 	for _, l := range bib.PorGenero("Mistério") {
 		fmt.Printf("  %s (%s)\n", l.Titulo, l.Genero)
 	}
