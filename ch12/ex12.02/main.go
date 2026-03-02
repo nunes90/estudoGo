@@ -20,5 +20,4 @@ func main() {
 	time.Sleep(2 * time.Second)
 	end := time.Now()
 	fmt.Println(elapsedTime(start, end))
-
 }
